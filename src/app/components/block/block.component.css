@@ -1,0 +1,56 @@
+.movie-block {
+    display: block;
+    float: left;
+    margin: 10px;
+    min-height: 550px;
+    position: relative;
+}
+
+h3 {
+    font-size: .8em;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    width: 300px;
+}
+
+.movie-poster {
+    cursor: pointer;
+}
+
+.movie-poster img {
+    display: block;
+    border-radius: 4px;
+}
+
+.details {
+    position: relative;
+}
+
+.add-to-watchlist {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.add-to-watchlist a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.add-to-watchlist:hover {
+    color: #00ffff;
+}
+
+
+.popularity {
+  color: #fff;
+  font-size: .7em;
+}

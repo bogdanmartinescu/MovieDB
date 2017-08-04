@@ -1,0 +1,10 @@
+<div class="movie-block">
+    <div class="movie-poster">
+        <img src="http://image.tmdb.org/t/p/w300/{{movie.poster_path}}">
+    </div>
+    <div class="details">
+      <h3>{{movie.title}}</h3>
+      <p class="popularity">Popularity: {{movie.popularity}}</p>
+      <a (click)="addToWatchlist(movie)" class="add-to-watchlist" title="Add to Watchlist" [hidden]="inWatchlist"><span class="fa fa-eye"></span></a>
+    </div>
+</div>

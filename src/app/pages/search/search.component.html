@@ -1,0 +1,9 @@
+<div class="search-page">
+    <input type="text" placeholder="Search by title..." (keyup)="search()" [(ngModel)]="searchStr" name="searchStr">
+</div>
+
+<div class="movie-listings" *ngIf="results">
+    <div *ngFor="let movie of results">
+        <app-block [movie]="movie"></app-block>
+    </div>
+</div>

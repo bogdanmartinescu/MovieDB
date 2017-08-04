@@ -1,0 +1,5 @@
+<div class="movie-listings" *ngIf="popular">
+    <div *ngFor="let movie of popular">
+        <app-block [movie]="movie"></app-block>
+    </div>
+</div>

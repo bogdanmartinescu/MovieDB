@@ -1,0 +1,9 @@
+<div class="movie-listings" *ngIf="watchlist">
+    <div *ngFor="let movie of watchlist">
+        <app-block [movie]="movie"></app-block>
+    </div>
+</div>
+
+<div class="movie-listings" *ngIf="!watchlist.length">
+    <p>There are no movies in your watchlist currently</p>
+</div>
